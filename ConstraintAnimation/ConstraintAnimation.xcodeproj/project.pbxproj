@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46FA55FD1C4777C00050F2A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FA55FC1C4777C00050F2A7 /* main.m */; };
+		46FA56001C4777C00050F2A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FA55FF1C4777C00050F2A7 /* AppDelegate.m */; };
+		46FA56031C4777C00050F2A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FA56021C4777C00050F2A7 /* ViewController.m */; };
+		46FA56061C4777C00050F2A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FA56041C4777C00050F2A7 /* Main.storyboard */; };
+		46FA56081C4777C10050F2A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46FA56071C4777C10050F2A7 /* Assets.xcassets */; };
+		46FA560B1C4777C10050F2A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FA56091C4777C10050F2A7 /* LaunchScreen.storyboard */; };
+		46FA56161C4777C10050F2A7 /* ConstraintAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FA56151C4777C10050F2A7 /* ConstraintAnimationTests.m */; };
+		46FA56211C4777C10050F2A7 /* ConstraintAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FA56201C4777C10050F2A7 /* ConstraintAnimationUITests.m */; };
+		46FA56301C477B660050F2A7 /* AttendanceShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FA562F1C477B660050F2A7 /* AttendanceShareViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46FA56121C4777C10050F2A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46FA55F01C4777C00050F2A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46FA55F71C4777C00050F2A7;
+			remoteInfo = ConstraintAnimation;
+		};
+		46FA561D1C4777C10050F2A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46FA55F01C4777C00050F2A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46FA55F71C4777C00050F2A7;
+			remoteInfo = ConstraintAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46FA55F81C4777C00050F2A7 /* ConstraintAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConstraintAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FA55FC1C4777C00050F2A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46FA55FE1C4777C00050F2A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46FA55FF1C4777C00050F2A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46FA56011C4777C00050F2A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		46FA56021C4777C00050F2A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		46FA56051C4777C00050F2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46FA56071C4777C10050F2A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46FA560A1C4777C10050F2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46FA560C1C4777C10050F2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FA56111C4777C10050F2A7 /* ConstraintAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConstraintAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FA56151C4777C10050F2A7 /* ConstraintAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConstraintAnimationTests.m; sourceTree = "<group>"; };
+		46FA56171C4777C10050F2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FA561C1C4777C10050F2A7 /* ConstraintAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConstraintAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FA56201C4777C10050F2A7 /* ConstraintAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConstraintAnimationUITests.m; sourceTree = "<group>"; };
+		46FA56221C4777C10050F2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FA562E1C477B660050F2A7 /* AttendanceShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceShareViewController.h; sourceTree = "<group>"; };
+		46FA562F1C477B660050F2A7 /* AttendanceShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceShareViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46FA55F51C4777C00050F2A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FA560E1C4777C10050F2A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FA56191C4777C10050F2A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46FA55EF1C4777C00050F2A7 = {
+			isa = PBXGroup;
+			children = (
+				46FA55FA1C4777C00050F2A7 /* ConstraintAnimation */,
+				46FA56141C4777C10050F2A7 /* ConstraintAnimationTests */,
+				46FA561F1C4777C10050F2A7 /* ConstraintAnimationUITests */,
+				46FA55F91C4777C00050F2A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46FA55F91C4777C00050F2A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46FA55F81C4777C00050F2A7 /* ConstraintAnimation.app */,
+				46FA56111C4777C10050F2A7 /* ConstraintAnimationTests.xctest */,
+				46FA561C1C4777C10050F2A7 /* ConstraintAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46FA55FA1C4777C00050F2A7 /* ConstraintAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				46FA55FE1C4777C00050F2A7 /* AppDelegate.h */,
+				46FA55FF1C4777C00050F2A7 /* AppDelegate.m */,
+				46FA56011C4777C00050F2A7 /* ViewController.h */,
+				46FA56021C4777C00050F2A7 /* ViewController.m */,
+				46FA562E1C477B660050F2A7 /* AttendanceShareViewController.h */,
+				46FA562F1C477B660050F2A7 /* AttendanceShareViewController.m */,
+				46FA56041C4777C00050F2A7 /* Main.storyboard */,
+				46FA56071C4777C10050F2A7 /* Assets.xcassets */,
+				46FA56091C4777C10050F2A7 /* LaunchScreen.storyboard */,
+				46FA560C1C4777C10050F2A7 /* Info.plist */,
+				46FA55FB1C4777C00050F2A7 /* Supporting Files */,
+			);
+			path = ConstraintAnimation;
+			sourceTree = "<group>";
+		};
+		46FA55FB1C4777C00050F2A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46FA55FC1C4777C00050F2A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46FA56141C4777C10050F2A7 /* ConstraintAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				46FA56151C4777C10050F2A7 /* ConstraintAnimationTests.m */,
+				46FA56171C4777C10050F2A7 /* Info.plist */,
+			);
+			path = ConstraintAnimationTests;
+			sourceTree = "<group>";
+		};
+		46FA561F1C4777C10050F2A7 /* ConstraintAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46FA56201C4777C10050F2A7 /* ConstraintAnimationUITests.m */,
+				46FA56221C4777C10050F2A7 /* Info.plist */,
+			);
+			path = ConstraintAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46FA55F71C4777C00050F2A7 /* ConstraintAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46FA56251C4777C10050F2A7 /* Build configuration list for PBXNativeTarget "ConstraintAnimation" */;
+			buildPhases = (
+				46FA55F41C4777C00050F2A7 /* Sources */,
+				46FA55F51C4777C00050F2A7 /* Frameworks */,
+				46FA55F61C4777C00050F2A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConstraintAnimation;
+			productName = ConstraintAnimation;
+			productReference = 46FA55F81C4777C00050F2A7 /* ConstraintAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46FA56101C4777C10050F2A7 /* ConstraintAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46FA56281C4777C10050F2A7 /* Build configuration list for PBXNativeTarget "ConstraintAnimationTests" */;
+			buildPhases = (
+				46FA560D1C4777C10050F2A7 /* Sources */,
+				46FA560E1C4777C10050F2A7 /* Frameworks */,
+				46FA560F1C4777C10050F2A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46FA56131C4777C10050F2A7 /* PBXTargetDependency */,
+			);
+			name = ConstraintAnimationTests;
+			productName = ConstraintAnimationTests;
+			productReference = 46FA56111C4777C10050F2A7 /* ConstraintAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46FA561B1C4777C10050F2A7 /* ConstraintAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46FA562B1C4777C10050F2A7 /* Build configuration list for PBXNativeTarget "ConstraintAnimationUITests" */;
+			buildPhases = (
+				46FA56181C4777C10050F2A7 /* Sources */,
+				46FA56191C4777C10050F2A7 /* Frameworks */,
+				46FA561A1C4777C10050F2A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46FA561E1C4777C10050F2A7 /* PBXTargetDependency */,
+			);
+			name = ConstraintAnimationUITests;
+			productName = ConstraintAnimationUITests;
+			productReference = 46FA561C1C4777C10050F2A7 /* ConstraintAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46FA55F01C4777C00050F2A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = minggo;
+				TargetAttributes = {
+					46FA55F71C4777C00050F2A7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					46FA56101C4777C10050F2A7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 46FA55F71C4777C00050F2A7;
+					};
+					46FA561B1C4777C10050F2A7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 46FA55F71C4777C00050F2A7;
+					};
+				};
+			};
+			buildConfigurationList = 46FA55F31C4777C00050F2A7 /* Build configuration list for PBXProject "ConstraintAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46FA55EF1C4777C00050F2A7;
+			productRefGroup = 46FA55F91C4777C00050F2A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46FA55F71C4777C00050F2A7 /* ConstraintAnimation */,
+				46FA56101C4777C10050F2A7 /* ConstraintAnimationTests */,
+				46FA561B1C4777C10050F2A7 /* ConstraintAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46FA55F61C4777C00050F2A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FA560B1C4777C10050F2A7 /* LaunchScreen.storyboard in Resources */,
+				46FA56081C4777C10050F2A7 /* Assets.xcassets in Resources */,
+				46FA56061C4777C00050F2A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FA560F1C4777C10050F2A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FA561A1C4777C10050F2A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46FA55F41C4777C00050F2A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FA56031C4777C00050F2A7 /* ViewController.m in Sources */,
+				46FA56001C4777C00050F2A7 /* AppDelegate.m in Sources */,
+				46FA55FD1C4777C00050F2A7 /* main.m in Sources */,
+				46FA56301C477B660050F2A7 /* AttendanceShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FA560D1C4777C10050F2A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FA56161C4777C10050F2A7 /* ConstraintAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FA56181C4777C10050F2A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FA56211C4777C10050F2A7 /* ConstraintAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46FA56131C4777C10050F2A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46FA55F71C4777C00050F2A7 /* ConstraintAnimation */;
+			targetProxy = 46FA56121C4777C10050F2A7 /* PBXContainerItemProxy */;
+		};
+		46FA561E1C4777C10050F2A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46FA55F71C4777C00050F2A7 /* ConstraintAnimation */;
+			targetProxy = 46FA561D1C4777C10050F2A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46FA56041C4777C00050F2A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46FA56051C4777C00050F2A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46FA56091C4777C10050F2A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46FA560A1C4777C10050F2A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46FA56231C4777C10050F2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46FA56241C4777C10050F2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46FA56261C4777C10050F2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConstraintAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minggo.constraint.animation.ConstraintAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46FA56271C4777C10050F2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConstraintAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minggo.constraint.animation.ConstraintAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46FA56291C4777C10050F2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConstraintAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minggo.constraint.animation.ConstraintAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConstraintAnimation.app/ConstraintAnimation";
+			};
+			name = Debug;
+		};
+		46FA562A1C4777C10050F2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConstraintAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minggo.constraint.animation.ConstraintAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConstraintAnimation.app/ConstraintAnimation";
+			};
+			name = Release;
+		};
+		46FA562C1C4777C10050F2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ConstraintAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minggo.constraint.animation.ConstraintAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ConstraintAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		46FA562D1C4777C10050F2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ConstraintAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minggo.constraint.animation.ConstraintAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ConstraintAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46FA55F31C4777C00050F2A7 /* Build configuration list for PBXProject "ConstraintAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FA56231C4777C10050F2A7 /* Debug */,
+				46FA56241C4777C10050F2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46FA56251C4777C10050F2A7 /* Build configuration list for PBXNativeTarget "ConstraintAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FA56261C4777C10050F2A7 /* Debug */,
+				46FA56271C4777C10050F2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46FA56281C4777C10050F2A7 /* Build configuration list for PBXNativeTarget "ConstraintAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FA56291C4777C10050F2A7 /* Debug */,
+				46FA562A1C4777C10050F2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46FA562B1C4777C10050F2A7 /* Build configuration list for PBXNativeTarget "ConstraintAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FA562C1C4777C10050F2A7 /* Debug */,
+				46FA562D1C4777C10050F2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46FA55F01C4777C00050F2A7 /* Project object */;
+}
