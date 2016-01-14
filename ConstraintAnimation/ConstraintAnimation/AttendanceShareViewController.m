@@ -70,12 +70,11 @@ static NSString *statName = @"attendanceSharePage";
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
-    
-    [self startAnimation];
-    
-    
+    [self startAnimation];//放在viewDidAppear才会有动画效果
 }
 -(void)startAnimation{
     
@@ -88,6 +87,8 @@ static NSString *statName = @"attendanceSharePage";
         [self.view layoutIfNeeded];
         
     } completion:^(BOOL finished) {
+        
+        //动画完成之后将昵称渐变出现
         [UIView animateWithDuration:0.3  animations:^{
             self.userName1Lb.alpha = 1;
             self.userName2Lb.alpha = 1;
